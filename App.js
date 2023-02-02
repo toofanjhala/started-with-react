@@ -1,12 +1,16 @@
-import Expenseitem from "./components/expenseitem";
-
+import React from "react";
+import Expense from "./components/expenses/expense";
 function App() {
+
   return (
-    <div>
-      <h2>Let's get started!</h2>
-      <Expenseitem></Expenseitem>
-    </div>
-  );
+   
+    <Expense></Expense>
+
+  )
+
 }
+
+
+
 
 export default App;
